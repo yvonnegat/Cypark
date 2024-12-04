@@ -1,0 +1,82 @@
+/* App.css */
+
+.landingpage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(53, 128, 240, 0.459);
+}
+.appbar {
+  background-color: transparent !important; /* Ensure it takes precedence */
+}
+.header{
+  color: aliceblue;
+
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  
+}
+.headings{
+  color: rgb(66, 96, 231);
+}
+.subheading{
+  color: rgb(19, 20, 29);
+}
+/* App.css */
+
+/* App.css */
+
+/* Styles for the main content container */
+.main-content {
+  margin-top: 20px;
+}
+
+/* Styles for the left-side container containing sort buttons and parking spot list */
+.left-side {
+  padding: 2px;
+}
+
+/* Styles for the sort buttons */
+.sort-buttons {
+  margin-bottom: 20px;
+  
+}
+
+/* Styles for the parking spot list */
+.parking-spot-list {
+  max-height: 300px;
+  overflow: scroll;
+}
+
+/* Media query for small screens */
+@media (max-width: 960px) {
+  /* Adjust styles for smaller screens */
+  .main-content {
+    margin-top: 10px;
+  }
+  .left-side {
+    padding: 5px;
+  }
+  .sort-buttons {
+    margin-bottom: 10px;
+  }
+  .parking-spot-list {
+    max-height: 300px;
+  }
+}
+
+
+
+ 
